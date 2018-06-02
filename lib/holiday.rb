@@ -66,6 +66,8 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_mod.each{|day| day.capitalize!}
         holiday_string = holiday_mod.join(" ")
 
+        
+
         puts (holiday_string + ":" )
     }
 
