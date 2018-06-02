@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
 
         puts "  " + (holiday_string + ": "  + supply_string)
     }
-
 }
 
 end
