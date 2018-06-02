@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_array.each { |holiday, supplies|
         modified_holiday = holiday.to_s
         puts (modified_holiday + ":").chomp
+        puts supplies
 
     }
 
