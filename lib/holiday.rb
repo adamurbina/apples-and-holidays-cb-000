@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
 
         supply_string = supplies.join(", ")
 
-        puts "\t" + (holiday_string + ": "  + supply_string)
+        puts "   " + (holiday_string + ": "  + supply_string)
     }
 
 }
