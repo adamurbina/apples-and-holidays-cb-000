@@ -68,14 +68,13 @@ def all_supplies_in_holidays(holiday_hash)
 
         supply_string = supplies.join(", ")
 
-        puts "   " + (holiday_string + ": "  + supply_string)
+        puts "  " + (holiday_string + ": "  + supply_string)
     }
 
 }
 
 end
 
-all_supplies_in_holidays(holiday_hash)
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
