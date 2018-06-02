@@ -59,9 +59,13 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each { |season, holiday_array|
     puts season.to_s.capitalize + ":"
+
     holiday_array.each { |holiday, supplies|
-        modified_holiday = holiday.to_s
-        puts (modified_holiday + ":").chomp("/n")
+        holiday_array = holiday.to_s.split("_")
+        holiday_array.each{|holiday| holiday.capitalize}
+        puts holiday_array
+        modified_holiday =
+        puts (modified_holiday + ":").chomp!
         puts supplies
 
     }
