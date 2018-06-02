@@ -63,10 +63,9 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_array.each { |holiday, supplies|
         holiday_array = holiday.to_s.split("_")
         holiday_array.each{|holiday| holiday.capitalize!}
-        puts holiday_array
         modified_holiday = holiday_array.join(" ")
         puts (modified_holiday + ":").chomp!
-        puts supplies
+        #puts supplies
 
     }
 
