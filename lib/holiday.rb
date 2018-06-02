@@ -88,5 +88,3 @@ def all_holidays_with_bbq(holiday_hash)
         }}
     bbq_holidays
 end
-
-puts all_holidays_with_bbq(holiday_hash)
